@@ -1,0 +1,253 @@
+2+7
+exp(24)
+x
+X
+x<-5
+x
+x=3
+x
+2*x
+weight = c(66.5, 50, 67, 52, 83, 65, 85, 64)
+height = c(1.86,1.62,1.72,1.67,1.98,1.77,1.92,1.68)
+bmi = weight/height^2
+bmi
+sum(weight)
+lenght(weight)
+length(weight)
+(xbar=sum(weight)/length(weight))
+sqrt(4)
+(Sn=sqrt((1/(length(weight)-1))*(sum((weight-xbar)^2)))
+)
+plot(height,weight)
+plot(height,weight,pch=2)
+?pch
+plot(height,weight,pch=8)
+?plot
+color=c("Blue","Red","Black")
+color
+logic=c(T,F,T,F,T)
+logic
+bmi>20
+mod(color)
+mode(color)
+x=c(3,4,10,9,8)
+y=c(9,1,2.3,10)
+z=c(x,y,10)
+z
+mark=c("Maths"=12,"English"=13, "French"=15)
+mark
+names(mark)
+seq(4,10)
+seq(4,10,2)
+seq(from=4,to=10,by=2)
+seq(10,4,-2)
+seq(10,4,lenght.out=5)
+seq(from=10,from=4,lenght.out=5)
+seq(from=10,from=4,lenght.out=10)
+seq(from=10,to=4,lenght.out=10)
+seq(from=10,to=4,length.out=10)
+seq(from=4,to=10,length.out=10)
+seq(from=4,to=10,length.out=5) #length.out:nombre d'élement souhaité
+x=c(3,1,5)
+rep(x,1:3)
+rep(1:4,each=4)
+x=rep(1,each=4)
+x
+x=1:12; dim(x)=c(3,4)
+x
+# c'est une matrice
+y=c("blue","red","white","green","pink","yellow"); dim(y)=c(3,2)
+y
+matrix(1:12, nrow=3, ncol=4)
+matrix(1:12, nr=3, nc=4)
+matrix(1:12, nr=3)
+matrix(1:12, nc=4)
+?matrix
+matrix(1:12, nc=4, byraw=TRUE)
+matrix(1:12, nc=4, byrow=TRUE)
+matrix(1:12, nc=4, byrow=T)
+rownames(x)=LETTERS[1:3]
+x
+T(x)
+t(x)
+t(x)
+x
+colnames(x)=LETTERS[1:4]
+x
+colnames(x)=letters[1:4]
+x
+colnames(x)=month.name[1:4]
+x
+colnames(x)=month.abb[1:4]
+x
+cbind(A=1:4,B=5:8,C12:15)
+cbind(A=1:4,B=5:8,C=12:15)
+rbind(A=1:4,B=5:8,C=12:15)
+y
+rbind(y, c("Purple","Blue"))
+pain=c(0,3,2,2,1)
+pain
+(fpain=as.factor(pain))
+# as.factor -> convertion en valeur qualitative
+levels(fpain)=c("none","mild","medium","severe")
+fpain
+# as.numeric -> convertion en valeur quantitative
+as.numeric(fpain)
+fpain
+mark=("C","A","C","A","B","C","A","D")
+mark=c("C","A","C","A","B","C","A","D")
+unique(mark)
+mark=c("D","A","C","A","B","C","A","D")
+unique(mark)
+# unique -> levels (modalités en FR)
+mark_ordered=factor(mark,ordered=T,levels=c("D","C","B","A"))
+mar_ordered
+mark_ordered
+# utile pour variable ordinale
+m=c(1,2,3,"4")
+m
+# un seul element de chaine de caractere modifie toute la liste/le vecteur
+x = list(a=2.5,b=T,c=1:3,d=matrix(1:4,nr=2),e=c("A","B"))
+x
+str(x)
+# str -> structure
+v1=c(25,22,34);v2=c(T,F,T);v3=c("M","F","M")
+data=data.frame(v1,v2,v3)
+data
+colnames(data)=c("x1","x2","x3")
+rownames(data)=c("pierre","paule","jacques")
+data
+data[1]
+data[x1]
+data[x1]
+data[1]
+data["x1"]
+data[,1]
+data[1,]
+data[c(1,3),]
+data[c(1,3),1:2]
+data[c(1,4),1:2]
+data[c(1,3),1:2]
+data[c(1,3),1:3]
+data[c(1,3),c(1,3)]
+data[c(1,3),-c(1,3)]
+data[,-c(1,3)]
+# "-" : sauf les variables ...
+matrix(c(3,4,8,10,11,22,1,5,6),nr=3)
+M = matrix(c(3,4,8,10,11,22,1,5,6),nr=3)
+M
+M.t
+t(M)
+help.search("determinant")
+det(M)
+M^-1
+MM^-1
+help.search("inverse")
+solve(M)
+N=solve(M)
+M*N
+M %*% N
+M
+M[1]
+M[1,1]
+M[1,2]
+M[5]
+M[c(1,3),1:3]
+M[-c(1),]
+# tout sauf la ligne 1 
+height=c(147,132,156,167,156,140)
+weight=c(50,46,47,62,58,45)
+sec=c("M","F","F","M","M","F")
+data2=data.frame(height,weight,sec)
+rm(height);rm(weight);rm(sec)
+summary(data2)
+class(data2)
+plot(height,weight)
+plot(weight,height)
+data[1]
+data2[1]
+data2[2]
+plot(data2[2],data2[1]
+)
+mode(data2)
+plot(data2[2],data2[1])
+plot(data2$weight,data2$height)
+attach(data2)
+plot(weight,height)
+detach(data2)
+weight >= 50
+attach(data2)
+weight >= 50
+weight2 = weight >=50
+weight2
+weight2 = weight[weight2]==T
+weight2
+weight[1]
+weight(weight >=50)
+weight[weight >=50]
+weight2=weight[weight>=50]
+weight2
+heigh2=height[height<=60]
+height2
+height2=height[height<=60]
+height2
+height
+height2=height[height<=160]
+height2
+#extrait les valeur <= 160 par exemple
+height2=weight[weight<=60]
+height2=height[weight<=60]
+height2
+weight
+sec
+height2=height[sec=="M" && weight<=60]
+height2
+height2=height[sec=="M" & weight<=60]
+height2
+x=runif(50,0,2) #random uniforme
+y=runif(50,0,2) #random uniforme
+plot(x,y, main="My Graphic", sub="Subtitle",xlab="labelx",ylab="labely")
+plot(x,y, main="y en fonction de x", sub="tp1",xlab="labelx",ylab="labely")
+text(1,1,"text at the point (1,1)")
+abline(h=1,v=1)
+abline(h=1,v=2)
+abline(a=1,b=2)
+abline(a=1,b=0)
+abline(a=0,b=1)
+abline(a=0,b=2,col="red")
+abline(a=0,b=2,col="blue")
+z=rnorm(1000)
+help.seach("histogram")
+help.search("histogram")
+hist(z)
+?rnorm
+hist(z/200)
+hist(z)
+hist(z, freq=F)
+#penser a changer le fre ! 
+#penser a changer le freq ! 
+help.search("overlay")
+help.search("density")
+t=seq(-4,4,0.1)
+dt=dnorm(t)
+lines(t,dt,col="red")
+hist(z)
+curve(dnorm(z), add=T, col='green')
+curve(dnorm(z), add=T, col='red')
+curve(dnorm(z), add=T, col="red")
+hist(z, freq=F)
+x=z
+curve(dnorm(x), add=T, col="red")
+x=seq(0,1,.05)
+plot(x,x,ylab="y",type="1")
+plot(x,x,ylab="y",type="l")
+for(j in 2:8) lines(x,x^j)
+med = function(x)
+{
+y = sort(x)
+l = lenght(x)
+p=l%%2
+if(p==0){
+return(y[l/2])
+}else{
+return(y[l/2])}}
