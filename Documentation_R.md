@@ -37,7 +37,7 @@ exemple de fonction: sum, mean, sqrt
 **length(x):** Retourne la longueur de x  
 
 ### Manipulation de fichier texte
-**x = read.table("matable.txt"):**  Permet de lire le fichier matable.txt et d'enregistrer son contenue dans x
+**x = read.table("matable.txt"):**  Permet de lire le fichier matable.txt et d'enregistrer son contenue dans x  
 **head(x):** Appercu de la table x  
 
 ### Affichage graphique
