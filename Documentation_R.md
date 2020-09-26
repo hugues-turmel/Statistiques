@@ -14,6 +14,7 @@ exemple de fonction: sum, mean, sqrt
 
 #### Fonctions utiles:
 **mean(x):** Valeur moyenne de x  
+**ceiling(n/2):** Arrondi à l'entier supérieur  
 **sum(x):** Fonction somme  
 **cumsum(x):** Retourne la liste des sommes cumulées de x ( cumsum(c(1,2,3,4,5,6,7,8,9,10)) -> 1  3  6 10 15 21 28 36 45 55 )  
 **sqrt(x):** Racine carré de x  
@@ -21,8 +22,8 @@ exemple de fonction: sum, mean, sqrt
 **pnorm(x):** Fonction de répartition en x de la loi normal centrée réduite   
 **qnorm(p)** Quantile de la probabilité p pour la loi normale centrée réduite  
 **sum(pbinom(x,size=n,prob=p)):** P(X <= x)  
-**sum(dbinom(x=a:b,size=n,prob=p)):** P(a < x < b)
-**dbinom(x=a,size=n,prob=p):** P(X = a)
+**sum(dbinom(x=a:b,size=n,prob=p)):** P(a < x < b)  
+**dbinom(x=a,size=n,prob=p):** P(X = a)  
 **sum(dbinom(x=a:b,size=b,prob=p)):** P( X > a-1)  
 **rpois(a,b):** Génération de a observations suivant la loi de poisson de paramètre b (lambda)  
 **rexp(a,b):** Génération de a observations suivant la loi exponentiel de paramètre b (lambda)  
@@ -30,10 +31,16 @@ exemple de fonction: sum, mean, sqrt
 **var(x):** Calcul de la variane  
 **median(x):** Calcul de la médianne  
 **range(x):**  
-**quantile(x):** Retourne toute les valeurs des quartiles de x  
+**quantile(x):** Retourne toute les valeurs des quartiles de x   
 **quantile(x, c(0,0.25,0.5,0.75,1)):** Retourne les quartiles associés au vecteur c  
 **sort(x):** Permet de trier x  
-**length(x):** Retourne la longueur de x
+**length(x):** Retourne la longueur de x  
+
 ### Manipulation de fichier texte
 **x = read.table("matable.txt"):**  Permet de lire le fichier matable.txt et d'enregistrer son contenue dans x
 **head(x):** Appercu de la table x  
+
+### Affichage graphique
+**abline(a, b, col="color"):** Trace la droite f: x->ax+b  
+**abline(h = a, col="color"):** Trace la droite horizontale coupant l'axe des ordonnés en a  
+**abline(v = b, col="color"):** Trace la droite verticale coupant l'axe des abscisse en b  
