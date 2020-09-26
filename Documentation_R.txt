@@ -1,0 +1,8 @@
+# Documentation R
+
+## Commandes et description
+
+**matrix(1:12, nr=3):** Créé une matrice de trois lignes contenant la liste allant de
+1 à 12
+**apply(matrice,1,fonction):** 
+**apply(matrice,2,fonction):**
