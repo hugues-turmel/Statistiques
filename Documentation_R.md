@@ -50,11 +50,11 @@ exemple de fonction: sum, mean, sqrt
 **abline(v = b, col="color"):** Trace la droite verticale coupant l'axe des abscisse en b  
 **lines(x,y,type="l"):** Trace un graphique de x en fonction de y  
 
-*Avec type:
-	*"p" pour point
-	*"l" pour ligne
-	*"b" pour point et ligne
-	*"c" pour point vide relié par des lignes
-	*"s" and "S" pour echellon
-	*"h" pour histogramme
-	*"n" pour ne rien n'afficher
+* Avec type:  
+	* "p" pour point  
+	* "l" pour ligne  
+	* "b" pour point et ligne  
+	* "c" pour point vide relié par des lignes  
+	* "s" and "S" pour echellon  
+	* "h" pour histogramme  
+	* "n" pour ne rien n'afficher  
