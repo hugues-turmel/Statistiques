@@ -21,12 +21,12 @@ Les statistiques descriptives ont pour but de décrire/résumer/présenter et or
 ### Cours:
 
 * Dimensionnalité d'une variable :
-	* Univariée : 1 variable par individu
-	* Bivariée : 2 variable par individu
-	* Multivariée : un grand nombre de variable par individu
+	* **Univariée :** 1 variable par individu
+	* **Bivariée :** 2 variable par individu
+	* **Multivariée :** un grand nombre de variable par individu
 	
 * Représentations graphiques :  
-	* Variables qualitatives : Diagramme baton, en barres ou camenbert
-	* Variables quantitatives : 
-		* Discrètes : baton
-		* Continues : histogramme
+	* **Variables qualitatives :** Diagramme baton, en barres ou camenbert
+	* **Variables quantitatives :** 
+		* **Discrètes :** baton
+		* **Continues :** histogramme
