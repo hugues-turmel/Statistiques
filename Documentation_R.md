@@ -41,8 +41,15 @@ exemple de fonction: sum, mean, sqrt
 **length(x):** Retourne la longueur de x  
 
 ### La manipulation de fichier texte
+**setwd("C:/Users/..."):** Permet de changer le répertoire courant  
 **x = read.table("matable.txt"):**  Permet de lire le fichier matable.txt et d'enregistrer son contenue dans x  
 **head(x):** Appercu de la table x  
+**x$valeur:** Permet de récupérer la colonne valeur  
+**attach(x):** Permet d'avoir accés a chaque colonnes/lignes sans utiliser l'option "$"  
+**dettach(x):** Ferme le fichier x  
+**addmargins(x):** Permet de sommer sur un ligne ou sur une colonne  
+**prop.table(x):** Donne les proportions de x  
+
 
 ### L'affichage graphique
 **abline(a, b, col="color"):** Trace la droite f: x->ax+b  
