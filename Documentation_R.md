@@ -2,12 +2,16 @@
 
 ## Commandes et description
 
-#### Matrice:
-**matrix(1:12, nr=3):** Créé une matrice de trois lignes contenant la liste allant de 1 à 12  
-#### Vecteur:
-**c(a,b,c,d,e,f):** Créé un vecteur contenant les éléments de a à f  
+### Les objets  
+
+#### Les Matrice:
+**matrix(1:12, nr=3):** Créé une matrice de 3 lignes contenant la liste allant de 1 à 12  
+**matrix(1:12, nc=3):** Créé une matrice de 3 colonnes contenant la liste allant de 1 à 12  
+**matrix(1:12, nc=3, nr=4):** Créé une matrice de 3 colonnes et 4 lignes contenant la liste allant de 1 à 12
+#### Les Vecteurs:
+**c(a,b,c,d,e,f):** Créé un vecteur contenant les éléments de a à f (la liste c peut contenir des chars, des booleéns, des ints...)  
 **c(liste1,liste2):** Retourne la concaténation des deux listes  
-#### Opération sur les matrices ou vecteurs:
+##### Les Opération sur les matrices ou vecteurs:
 **apply(matrice,1,fonction):** Applique la fonction à chacune des lignes de la matrice  
 **apply(matrice,2,fonction):** Applique la fonction à chacune des colonnes de la matrice  
 exemple de fonction: sum, mean, sqrt 
@@ -17,7 +21,7 @@ exemple de fonction: sum, mean, sqrt
 **ceiling(n/2):** Arrondi à l'entier supérieur  
 **sum(x):** Fonction somme  
 **cumsum(x):** Retourne la liste des sommes cumulées de x ( cumsum(c(1,2,3,4,5,6,7,8,9,10)) -> 1  3  6 10 15 21 28 36 45 55 )  
-**sqrt(x):** Racine carré de x  
+**sqrt(x):** Racine carré de x 
 **rnorm(x):** Génération de x nombre aléatoires suivant la loi normale centrée réduite  
 **pnorm(x):** Fonction de répartition en x de la loi normal centrée réduite   
 **qnorm(p)** Quantile de la probabilité p pour la loi normale centrée réduite  
