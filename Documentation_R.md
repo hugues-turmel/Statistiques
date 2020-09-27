@@ -48,7 +48,8 @@ exemple de fonction: sum, mean, sqrt
 **abline(a, b, col="color"):** Trace la droite f: x->ax+b  
 **abline(h = a, col="color"):** Trace la droite horizontale coupant l'axe des ordonnés en a  
 **abline(v = b, col="color"):** Trace la droite verticale coupant l'axe des abscisse en b  
-**lines(x,y,type="l"):** Trace un graphique de x en fonction de y
+**lines(x,y,type="l"):** Trace un graphique de x en fonction de y  
+
 *Avec type:
 	*"p" pour point
 	*"l" pour ligne
