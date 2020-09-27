@@ -11,12 +11,12 @@
 #### Les Vecteurs:
 **c(a,b,c,d,e,f):** Créé un vecteur contenant les éléments de a à f (la liste c peut contenir des chars, des booleéns, des ints...)  
 **c(liste1,liste2):** Retourne la concaténation des deux listes  
-##### Les Opération sur les matrices ou vecteurs:
+#### Les Opération sur les matrices ou vecteurs:
 **apply(matrice,1,fonction):** Applique la fonction à chacune des lignes de la matrice  
 **apply(matrice,2,fonction):** Applique la fonction à chacune des colonnes de la matrice  
 exemple de fonction: sum, mean, sqrt 
 
-#### Fonctions utiles:
+### Les Fonctions utiles:
 **mean(x):** Valeur moyenne de x  
 **ceiling(n/2):** Arrondi à l'entier supérieur  
 **sum(x):** Fonction somme  
@@ -40,11 +40,11 @@ exemple de fonction: sum, mean, sqrt
 **sort(x):** Permet de trier x  
 **length(x):** Retourne la longueur de x  
 
-### Manipulation de fichier texte
+### La manipulation de fichier texte
 **x = read.table("matable.txt"):**  Permet de lire le fichier matable.txt et d'enregistrer son contenue dans x  
 **head(x):** Appercu de la table x  
 
-### Affichage graphique
+### L'affichage graphique
 **abline(a, b, col="color"):** Trace la droite f: x->ax+b  
 **abline(h = a, col="color"):** Trace la droite horizontale coupant l'axe des ordonnés en a  
 **abline(v = b, col="color"):** Trace la droite verticale coupant l'axe des abscisse en b  
