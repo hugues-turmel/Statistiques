@@ -4,7 +4,7 @@
 
 ### Les objets  
 
-#### Les Matrice:
+#### Les Matrices:
 **matrix(1:12, nr=3):** Créé une matrice de 3 lignes contenant la liste allant de 1 à 12  
 **matrix(1:12, nc=3):** Créé une matrice de 3 colonnes contenant la liste allant de 1 à 12  
 **matrix(1:12, nc=3, nr=4):** Créé une matrice de 3 colonnes et 4 lignes contenant la liste allant de 1 à 12
@@ -45,7 +45,7 @@ exemple de fonction: sum, mean, sqrt
 **x = read.table("matable.txt"):**  Permet de lire le fichier matable.txt et d'enregistrer son contenue dans x  
 **head(x):** Appercu de la table x  
 **x$valeur:** Permet de récupérer la colonne valeur  
-**attach(x):** Permet d'avoir accés a chaque colonnes/lignes sans utiliser l'option "$"  
+**attach(x):** Permet d'avoir accés à chaque colonnes/lignes sans utiliser l'option "$"  
 **dettach(x):** Ferme le fichier x  
 **addmargins(x):** Permet de sommer sur un ligne ou sur une colonne  
 **prop.table(x):** Donne les proportions de x  
